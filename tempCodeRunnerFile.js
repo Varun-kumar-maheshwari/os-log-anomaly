@@ -1,0 +1,1 @@
+batch = fs.createReadStream('./generator.log', { start: lastPosition, end: currentSize - 1 })
